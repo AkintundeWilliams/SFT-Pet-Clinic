@@ -50,13 +50,18 @@
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-release-plugin</artifactId>
-					<version>2.5.3</version>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.22.2</version>
 					<configuration>
-						<goals>install</goals>
+						<testFailureIgnore>true</testFailureIgnore>
 					</configuration>
 				</plugin>
 			</plugins>
 	</build>
+
+	<scm>
+		<developerConnection>scm:git:https://github.com/AkintundeWilliams/SFT-Pet-Clinic.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
 
 </project>
