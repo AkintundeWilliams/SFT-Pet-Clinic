@@ -49,9 +49,6 @@
                             <goals>
                                 <goal>repackage</goal>
                             </goals>
-                            <configuration>
-                                <skip>true</skip>
-                            </configuration>
                         </execution>
                     </executions>
                 </plugin>
@@ -60,6 +57,7 @@
     </build>
 
     <properties>
+        <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
         <maven.compiler.source>19</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
