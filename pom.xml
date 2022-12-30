@@ -14,7 +14,7 @@
 	</parent>
 	<groupId>akin.springframework</groupId>
 	<artifactId>SFT-Pet-Clinic</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<name>SFT-Pet-Clinic</name>
 	<description>SFT PET CLINIC</description>
 	<properties>
@@ -53,6 +53,7 @@
 					<artifactId>maven-release-plugin</artifactId>
 					<configuration>
 						<goals>install</goals>
+						<autoVersionSubmodules>true</autoVersionSubmodules>
 					</configuration>
 				</plugin>
 			</plugins>
@@ -61,7 +62,7 @@
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/AkintundeWilliams/SFT-Pet-Clinic.git</developerConnection>
-	  <tag>HEAD</tag>
+	  <tag>SFT-Pet-Clinic-0.0.2</tag>
   </scm>
 
 </project>
